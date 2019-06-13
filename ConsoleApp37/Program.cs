@@ -33,8 +33,11 @@ namespace ConsoleApp37
                 Console.WriteLine("Точка принадлежит области D");
                 u = x + y;
             }
-            else u = x - y;
+            else 
+            {
+            u = x - y;
             Console.WriteLine("Точка не принадлежит области D");
+            }
             Console.WriteLine("u={0}", u);
             Console.ReadKey();
 
