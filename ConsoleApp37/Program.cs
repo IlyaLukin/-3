@@ -16,14 +16,14 @@ namespace ConsoleApp37
 
             do
             {
-                Console.WriteLine("Введите x:");
+                Console.Write("Введите x:");
                 string name = Console.ReadLine();
                 ok = double.TryParse(name, out x);
             } while (!ok);
 
             do
             {
-                Console.WriteLine("Введите y:");
+                Console.Write("Введите y:");
                 string name = Console.ReadLine();
                 ok = double.TryParse(name, out y);
             } while (!ok);
